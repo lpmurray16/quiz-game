@@ -1,6 +1,6 @@
 <header>
     <div class="logo" on:click={() => (window.location.href = "/")}>
-        <img src="/controller2.svg" alt="Quiz Game" />
+        <img src="/heart.png" alt="Quiz Game" />
         <span>Quiz Game</span>
     </div>
     <div class="nav__reg">
@@ -61,7 +61,9 @@
         cursor: pointer;
     }
     .logo img {
-        margin-right: 0.5rem;
+        margin-right: 0.68rem;
+        width: 40px;
+        height: 40px;
     }
     .logo span {
         font-size: 1.5rem;
