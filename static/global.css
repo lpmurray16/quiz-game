@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  color: #e99e34;
+}
+a:hover {
+  color: rgb(166, 70, 222);
+}
+
+.text-m {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+.text-l {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.text-xl {
+  font-size: clamp(1.9rem, 3vw, 2.9rem);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+}/*# sourceMappingURL=global.css.map */
